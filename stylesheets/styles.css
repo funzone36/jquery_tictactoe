@@ -1,0 +1,52 @@
+html {
+  height: 100%;
+  width: 100%;
+}
+
+body {
+  height: 100%;
+  width: 100%;
+  margin: 0 auto;
+  text-align: center;
+  background-color: lightsteelblue;
+}
+
+table {
+  margin: 0 auto;
+  width: auto;
+}
+
+td {
+  font-family: sans-serif;
+  border: 1px solid black;
+  width: 200px;
+  height: 200px;
+  text-align: center;
+  font-size: 150px;
+  cursor: pointer;
+}
+
+td:hover {
+  background-color: gray;
+}
+
+.x {
+  background-color: lightgray;
+}
+
+.o {
+  background-color: darkgray;
+}
+
+.setup {
+  text-align: center;
+}
+
+#boardSize {
+  text-align: center;
+}
+
+#game {
+  width: 600px;
+  margin: 0 auto;
+}
